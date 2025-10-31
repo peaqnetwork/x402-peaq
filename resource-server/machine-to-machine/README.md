@@ -35,7 +35,7 @@ npm install
 ```
 
 ### 3. Environment Setup
-Rename `.env.example` to .env and replace the variables with the proper values:
+Rename `.env.example` to `.env` and replace the variables with the proper values:
 ```
 FACILITATOR_URL=''
 SERVER_PORT=4141

@@ -14,7 +14,7 @@ cd resource-server/human-to-api
 npm install
 ```
 ### 3. Environment Setup
-Rename `.env.example` to .env and replace the variables with the proper values:
+Rename `.env.example` to `.env` and replace the variables with the proper values:
 ```
 FACILITATOR_URL=''
 DATA_PROVIDER_ADDRESS=''

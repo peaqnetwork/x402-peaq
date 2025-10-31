@@ -14,7 +14,7 @@ npm install
 ```
 
 ### 3. Environment Setup
-Rename `.env.example` to .env and replace the variables with proper values
+Rename `.env.example` to `.env` and replace the variables with proper values
 ```
 FACILITATOR_PRIVATE_KEY=''
 FACILITATOR_PORT=3333
@@ -28,4 +28,6 @@ FACILITATOR_PORT=3333
 npm start
 ```
 
-Now that we have this running we can use this URL to set the `FACILITATOR_URL` in the `.env` files inside of one the **resource-servers**.
+Now that we have this running we can use this URL to set the `FACILITATOR_URL` in the `.env` files inside of one the **resource-servers**. Your next step is to execute one of the following:
+- [Machine-to-Machine](../resource-server/machine-to-machine/README.md)
+- [Human-to-API](../resource-server/human-to-api/README.md)
