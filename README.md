@@ -2,7 +2,7 @@
 Use the following guide and repository to be able to:
 1. Create a Facilitator.
 2. Execute machine-to-machine x402 payments for a privileged data response.
-3. Execute human-to-api frontend interaction and trigger a x402 payment for a privileged data response.
+3. Execute human-to-api frontend interaction and trigger x402 payment for a privileged data response.
 
 ## Getting Started
 ```
