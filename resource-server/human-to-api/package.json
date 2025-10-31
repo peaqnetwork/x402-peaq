@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx api/server.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "demo:pay": "tsx machine/index.ts",
+    "build": "vite build --config frontend/vite.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/express": "^5.0.4",
+    "@types/node": "^24.9.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.12"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "viem": "^2.38.5",
+    "x402-express": "^0.7.0",
+    "x402-fetch": "^0.7.0"
+  }
+}
